@@ -1,45 +1,40 @@
-# 🎙️ Interview Voice Bot
+# 🎙 AI Voicebot – Interview Assistant
 
-A voice-powered personal assistant for job interviews.
+## 📌 Project Overview
+This project is a web-based AI Voicebot that represents me in a job interview.  
+It is designed to answer common interview questions using predefined profile data and simulate a conversational experience using voice interaction.
 
-## Quick Setup (5 minutes)
+The voicebot speaks in first person and responds confidently based on structured profile information.
 
-### 1. Get Free Gemini API Key
-- Go to: https://aistudio.google.com/app/apikey
-- Click "Create API Key" → Copy it
+## 🚀 Features
 
-### 2. Edit Your Profile
-Open `app.py` and fill in YOUR_PROFILE section with:
-- Your name, skills, experience, education, projects
-
-### 3. Run Locally
-```bash
-pip install -r requirements.txt
-export GEMINI_API_KEY="your_key_here"     # Mac/Linux
-# set GEMINI_API_KEY=your_key_here        # Windows
-python app.py
-```
-Open: http://localhost:5000
-
----
-
-## 🚀 Deploy Free on Render.com (10 min)
-
-1. Push this folder to a GitHub repo
-2. Go to https://render.com → New → Web Service
-3. Connect your GitHub repo
-4. Settings:
-   - **Build Command:** `pip install -r requirements.txt`
-   - **Start Command:** `gunicorn app:app --bind 0.0.0.0:$PORT`
-5. Add environment variable: `GEMINI_API_KEY` = your key
-6. Click Deploy → Get your URL! 🎉
+- 🎤 Voice input using Speech Recognition
+- 🔊 Voice output using Text-to-Speech
+- 🤖 AI-powered conversational responses
+- 📄 Structured professional profile
+- 💬 Answers questions about:
+  - Life story
+  - Skills
+  - Work experience
+  - Projects
+  - Goals
+  - Strengths
 
 ---
 
-## Features
-- 🎤 Voice input (Web Speech API, no cost)
-- 🔊 Voice output (browser TTS, no cost)
-- 💬 Text fallback input
-- 🧠 Gemini AI responses (free tier)
-- 💾 Conversation memory within session
-- 🎨 Beautiful dark UI
+## 🛠 Tech Stack
+
+Frontend:
+- HTML
+- CSS
+  
+
+Backend:
+- Python
+
+AI Integration:
+- LLM API (for generating interview responses)
+
+---
+
+## 📂 Project Structure
