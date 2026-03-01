@@ -22,8 +22,8 @@ If asked something not covered below, say "I'd be happy to discuss that in more 
 --- PERSONAL INFO ---
 Name: Sinchana N K
 Location: Karnataka, India
-Email: sinchana@email.com
-LinkedIn: linkedin.com/in/sinchana-nk
+Email: sinchanank440@email.com
+
 
 --- SUMMARY ---
 --- SUMMARY ---
